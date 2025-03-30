@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.img-test {
+    width: 500px;
+    height: 500px;
+    background-image: url("image/How-To-Rid-Yourself-Of-Black-and-White-Thinking.jpg");
+    /* 
+     * This file contains the styles for the application.
+     * The `background-size: cover;` property ensures that the background image 
+     * covers the entire container while maintaining its aspect ratio.
+     */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* 
+     * Adds a smooth transition effect to all properties when they change.
+     * The transition duration is 2 seconds, with an ease-in-out timing function 
+     * and a 1-second delay before starting.
+     */
+    transition: all 2s ease-in-out 1s;
+    -webkit-transition: all 2s ease-in-out 1s; /* For Safari and Chrome */
+    -moz-transition: all 2s ease-in-out 1s; /* For Firefox */
+    -o-transition: all 2s ease-in-out 1s; /* For Opera */
+
+   
+
+}
+.img-test:hover{
+    background-image:url(image/images.jpeg) ;
+}
+
+.button-test{
+    display: block;
+    width: 128px;
+    height: 60px;
+    padding-left:20px ;
+    background-color: lightblue;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 60px;
+    text-decoration: none;
+    white-space: nowrap;
+}
